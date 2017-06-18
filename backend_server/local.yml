@@ -1,0 +1,12 @@
+# HTTP-specific options.
+server:
+  applicationConnectors:
+    - type: http
+      port: 8443
+
+
+logging:
+  appenders:
+    - type: console
+      threshold: WARN
+      target: stderr
